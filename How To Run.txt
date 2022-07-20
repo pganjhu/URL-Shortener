@@ -1,0 +1,15 @@
+This code is written using PyCharm
+
+To run the code, Press Run from the menu
+
+To get the task done, I used Postman POST method
+
+for encode - Encodes a URL to a shortened URL. Use the below as input to Body of Postman POST
+{
+"link":"https://stackoverflow.com/questions/56655188/how-to-execute-sql-script-with-multiple-statements-from-airflow-oracleoperator"
+}
+
+for decode - Decodes a shortened URL to its original URL. Use the below as input to Body of Postman POST
+{
+"link":"https://tinyurl.com/2d35mc7w"
+}
